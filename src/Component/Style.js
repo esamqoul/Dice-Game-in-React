@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: grid;
@@ -7,35 +7,33 @@ export const Wrapper = styled.div`
   height: 100vh;
 }
   
-`
+`;
 export const StartingPage = styled.div`
-
-    height: 100vh;
-    margin: 20px;
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 225, 225, .1);
-    border-radius: 20px;
-    margin: 0 auto;
-      @media (min-width: 600px) {
-        width: 427px;
+  height: 100vh;
+  margin: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 225, 225, 0.1);
+  border-radius: 20px;
+  margin: 0 auto;
+  @media (min-width: 600px) {
+    width: 427px;
   }
-  
-`
+`;
 export const HeaderTop = styled.div`
   height: 63px;
   margin: 0 auto;
   display: grid;
-  border-bottom: 1px solid rgba(255, 255, 255, .1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   justify-content: end;
   align-items: center;
   padding: 0px 16px;
-   
-  h2{
+
+  h2 {
     font-size: 14px;
     color: white;
     font-weight: bold;
   }
-`
+`;
 export const Main = styled.div`
   margin: 0 auto;
   display: grid;
@@ -43,29 +41,29 @@ export const Main = styled.div`
   padding: 50px 0;
 
   img {
-    width: 124px
+    width: 124px;
   }
-`
+`;
 
-export const Fotter = styled.div` 
-  background-color: rgba(0,0,0,.1);
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin: 0 auto;
-    flex-flow: column;
-    p{
-      padding: 16px 0;
-      font-size: 10px;
-      opacity: .4;
-      font-weight: normal;
-    }
-      @media (min-width: 600px) {
-        width: 425px;
-      }
-`
-export const Dise = styled.div` 
+export const Fotter = styled.div`
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  flex-flow: column;
+  p {
+    padding: 16px 0;
+    font-size: 10px;
+    opacity: 0.4;
+    font-weight: normal;
+  }
+  @media (min-width: 600px) {
+    width: 425px;
+  }
+`;
+export const Dise = styled.div`
   display: block;
   margin: auto;
   align-content: space-between;
@@ -75,86 +73,86 @@ export const Dise = styled.div`
     height: 44px;
     margin: 0 6px;
   }
-`
-export const Betamount = styled.div`
-    display: flex;
-    justify-content: center;
-        padding-top: 40px;
-    
-    h2{
-      font-size: 32px;
-      padding: 20px 40px;
-      color: white;
-      font-weight: bold;
-    }
-    img{
-      width: 44px
-      }
-`
-export const Button = styled.button`
-    height: 44px;
-    background-color: #ff2983;
-    margin: 32px 16px;
-    display: inline-block;
-    padding: 0 16px;
-    border-radius: 2em;
-    box-sizing: border-box;
-    -webkit-text-decoration: none;
-    text-decoration: none;
+`;
+export const BetAdd = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+
+  h2 {
+    font-size: 32px;
+    padding: 20px 40px;
+    color: white;
     font-weight: bold;
-    color: #FFFFFF;
-    text-align: center;
-    -webkit-transition: all 0.2s;
-    font-size: 12px;
-    text-transform: uppercase;
-    opacity: .4;
+  }
+  img {
+    width: 44px;
+  }
+`;
+export const Button = styled.button`
+  height: 44px;
+  background-color: #ff2983;
+  margin: 32px 16px;
+  display: inline-block;
+  padding: 0 16px;
+  border-radius: 2em;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  -webkit-transition: all 0.2s;
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.4;
 
-      :hover{
-            background-color: #ff036d;
-      }
-`
+  :hover {
+    background-color: #ff036d;
+  }
+`;
 export const HistoryPage = styled.div`
-    display: grid;
-    padding-top: 32px;
-    
-    h1{
-      font-size: 32px;
-      padding: 20px 40px;
-      color: white;
-      font-weight: bold;
-    }
-    h2{
-      font-size: 32px;
-      padding: 20px 40px;
-      color: white;
-      font-weight: bold;
-      display: grid;
-      justify-content: left;
-    }
-    img{
-      width: 12px
-      }
-`
+  display: grid;
+  padding-top: 32px;
 
-export const HistoryPageFotter = styled.div` 
-  background-color: rgba(0,0,0,.1);
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin: 0 auto;
-    flex-flow: column;
-    p{
-      padding: 16px 0;
-      font-size: 10px;
-      opacity: .4;
-      font-weight: normal;
-    }
-      @media (min-width: 600px) {
-        width: 425px;
-      }
-`
-export const HistoryPageDise = styled.div` 
+  h1 {
+    font-size: 32px;
+    padding: 20px 40px;
+    color: white;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 32px;
+    padding: 20px 40px;
+    color: white;
+    font-weight: bold;
+    display: grid;
+    justify-content: left;
+  }
+  img {
+    width: 12px;
+  }
+`;
+
+export const HistoryPageFotter = styled.div`
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  flex-flow: column;
+  p {
+    padding: 16px 0;
+    font-size: 10px;
+    opacity: 0.4;
+    font-weight: normal;
+  }
+  @media (min-width: 600px) {
+    width: 425px;
+  }
+`;
+export const HistoryPageDise = styled.div`
   display: block;
   margin: auto;
   align-content: space-between;
@@ -164,15 +162,15 @@ export const HistoryPageDise = styled.div`
     height: 12px;
     margin: 0 6px;
   }
-`
+`;
 export const ButtonForm = styled(Button)`
-    margin: 0;
-    opacity: 1;
-    width: 100%;  
-      :hover{
-            background-color: #ff036d;
-      }
-`
+  margin: 0;
+  opacity: 1;
+  width: 100%;
+  :hover {
+    background-color: #ff036d;
+  }
+`;
 
 export const Formcontainer = styled.div`
   background: #6d3bcb;
@@ -279,4 +277,4 @@ export const Formcontainer = styled.div`
     }
   }
 }
-`
+`;
