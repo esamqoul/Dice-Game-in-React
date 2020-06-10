@@ -105,7 +105,7 @@ export const Button = styled.button`
   -webkit-transition: all 0.2s;
   font-size: 12px;
   text-transform: uppercase;
-  opacity: 0.4;
+  opacity: 1;
 
   :hover {
     background-color: #ff036d;
@@ -277,4 +277,15 @@ export const Formcontainer = styled.div`
     }
   }
 }
+`;
+
+export const Win = styled.div`
+  .img {
+    mix-blend-mode: difference;
+  }
+`;
+export const Lose = styled.div`
+  .img {
+    mix-blend-mode: saturation;
+  }
 `;
