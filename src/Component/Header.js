@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import axios from "axios";
 import { HeaderTop } from "./Style";
 
-function Header() {
+function Header({ userBalance }) {
   return (
     <HeaderTop>
-      <h2>2500</h2>
+      <h2>{userBalance}</h2>
     </HeaderTop>
   );
 }

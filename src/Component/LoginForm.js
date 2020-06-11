@@ -13,7 +13,7 @@ function Login() {
         <div className="login-box">
             <Main><img style={{ width: "130px" }} src={Logo} alt="Dice Logo" /></Main>
             <Tabs>
-                <div label="SOGN IN">
+                <div label="SIGN IN">
                     <SignIn />
                 </div>
                 <div label="SIGN UP">

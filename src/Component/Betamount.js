@@ -4,14 +4,14 @@ import { BetAdd } from "./Style";
 import Plus from "./images/plus.svg";
 import Minus from "./images/minus.svg";
 
-function Betamount() {
-  const [count, setCount] = React.useState(0);
-
+function Betamount({ count, setCount }) {
   const increment = () => {
     setCount(count + 100);
   };
   const decrement = () => {
-    setCount(count - 100);
+    if (count - 100 >= 0) {
+      setCount(count - 100);
+    }
   };
 
   return (
