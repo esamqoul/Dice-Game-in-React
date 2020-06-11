@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { HeaderTop } from "./Style";
 
 function Header({ userBalance }) {
